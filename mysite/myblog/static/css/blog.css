@@ -32,3 +32,36 @@
     position: absolute;
     right: 0px;
 }
+
+
+.tabs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
+
+.tabs a {
+    height: 35px;
+    padding: 5px;
+    margin: 35px;
+    margin-top: 45px;
+    color: black; 
+    cursor: pointer;
+}
+
+.underlined {
+    color: black;
+    font-size: 20px;
+    /* background-image: linear-gradient(to right, yellow 0, yellow 100%); */
+    background-image: linear-gradient(to right, rgb(44, 176, 224), rgb(25, 79, 139));
+    background-size: 0 5%;
+    background-position: 0 2.2em;
+    background-repeat: no-repeat;
+    transition: background 1s;
+  }
+  .underlined:hover {
+    background-size: 100% 100%;
+    /* color: white; */
+    transition: all 2s; 
+  }
